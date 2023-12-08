@@ -1,0 +1,14 @@
+
+.flatCard{
+    border-color: 1px gray;
+    border-radius: 3px;
+    margin: 20px;
+    padding-bottom: 10px;
+    transition: transform .1s;
+    cursor: pointer;
+}
+
+.flatCard:hover{
+    transform: scale(1.01);
+}
+

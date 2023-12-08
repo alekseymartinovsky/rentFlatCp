@@ -1,0 +1,31 @@
+
+.ant-picker-dropdown.customDateRange {
+    position: relative;
+    float: right;
+    max-width: 290px;
+    left: 0px !important;
+    margin-right: calc((100% - 1250px) / 2 + 110px);
+    z-index: 0;
+}
+
+.ant-picker-dropdown.customDateRange  .ant-picker-panel-container {
+    box-shadow: none;
+    border: 1px solid gray;
+}
+
+.ant-picker-dropdown.customDateRange .ant-picker-range-wrapper {
+    max-width: 290px;
+}
+
+.ant-picker-dropdown.customDateRange  .ant-picker-header-next-btn {
+    position: absolute;
+    left: 260px;
+}
+
+.ant-picker-dropdown.customDateRange  .ant-picker-header-super-prev-btn {
+    display: none;
+}
+
+.ant-picker-dropdown.customDateRange .ant-picker-range-wrapper .ant-picker-panels > *:not(:first-child):nth-child(2) {
+    /* display: none; */
+}

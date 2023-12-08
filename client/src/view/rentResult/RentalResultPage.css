@@ -1,0 +1,29 @@
+.rentalResultPage {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-width: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rentalResultBlock {
+    display: flex;    
+    margin-top: 40px;
+}
+
+.rentalResultBlock .pricesList {
+    display: flex;
+}
+
+.rentalResultBlock .date {
+    margin-right: 50px;
+    width: 150px;
+}
+
+.rentalResultBlock .titlePricelist {
+    font-weight: 500;
+    display: flex;
+}

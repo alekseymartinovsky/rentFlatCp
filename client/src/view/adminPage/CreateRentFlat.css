@@ -1,0 +1,56 @@
+.iconCheckbox {
+    padding: 20px;
+    border: 1px solid gray;
+
+    display: block;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 16px;
+
+    border-radius: 10px;
+    margin: 25px;
+}
+
+.amenitiesBlock {
+    display: flex;
+    width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.amenitiesBlock .ant-checkbox {
+    display: none;
+}
+
+
+.iconCheckboxTitle {
+    padding-top: 10px;
+}
+
+.iconCheckbox:hover {
+    border-color: black;
+}
+
+.greenBorder {
+    border-color: green;
+}
+
+.greenBorder:hover{
+    border-color: green;
+}
+
+.iconCheckbox img {
+    width: 50px;
+    height: 50px;
+}
+
+.iconCheckbox .ant-checkbox-wrapper {
+    display: none;
+}
+

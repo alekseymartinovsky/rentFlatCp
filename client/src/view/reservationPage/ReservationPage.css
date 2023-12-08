@@ -1,0 +1,29 @@
+.reservationPage {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.reservationPage .reservInfo {
+    display: flex;
+}
+
+.reservationPage .reservInfo div {
+    width: 200px;
+}
+
+.reservationPage .reservInfo.header {
+    margin-bottom: 10px;
+}
+
+.reservationBlock {
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 40px;
+}
+
+.reservationBlock h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
